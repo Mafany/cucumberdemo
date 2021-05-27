@@ -1,0 +1,192 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-27T10:26:56.020Z",
+        "line": 4,
+        "name": "User registration with different data",
+        "description": "",
+        "id": "user-registration;user-registration-with-different-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1367088,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on  registration page",
+            "match": {
+              "location": "stepdefinition.UserRegistrationSteps.user_is_on_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 776255,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters following user details",
+            "match": {
+              "location": "stepdefinition.UserRegistrationSteps.user_enters_following_user_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Jeff",
+                  "Mafany",
+                  "jeffmafany@gmail.com",
+                  "047987981",
+                  "Tokyo"
+                ]
+              },
+              {
+                "cells": [
+                  "Melissa",
+                  "Mafany",
+                  "melissamaf@gmail.com",
+                  "04894587",
+                  "New York"
+                ]
+              },
+              {
+                "cells": [
+                  "Beyonce",
+                  "Enanga",
+                  "jbeyenang@hotmail.com",
+                  "074012569",
+                  "London"
+                ]
+              },
+              {
+                "cells": [
+                  "Emma",
+                  "Lyonga",
+                  "emmamafany@gmail.com",
+                  "0893256",
+                  "Tiko"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 179401,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user registration should be  successful",
+            "match": {
+              "location": "stepdefinition.UserRegistrationSteps.user_registration_should_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-27T10:26:56.110Z",
+        "line": 15,
+        "name": "User registration with different data with columns",
+        "description": "",
+        "id": "user-registration;user-registration-with-different-data-with-columns",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 165531,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is on  registration page",
+            "match": {
+              "location": "stepdefinition.UserRegistrationSteps.user_is_on_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1511153,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters following user details with columns",
+            "match": {
+              "location": "stepdefinition.UserRegistrationSteps.user_enters_following_user_details_with_columns(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstname",
+                  "lastname",
+                  "email",
+                  "telephone",
+                  "city"
+                ]
+              },
+              {
+                "cells": [
+                  "Jeff",
+                  "Mafany",
+                  "jeffmafany@gmail.com",
+                  "047987981",
+                  "Tokyo"
+                ]
+              },
+              {
+                "cells": [
+                  "Melissa",
+                  "Mafany",
+                  "melissamaf@gmail.com",
+                  "04894587",
+                  "New York"
+                ]
+              },
+              {
+                "cells": [
+                  "Beyonce",
+                  "Enanga",
+                  "jbeyenang@hotmail.com",
+                  "074012569",
+                  "London"
+                ]
+              },
+              {
+                "cells": [
+                  "Emma",
+                  "Lyonga",
+                  "emmamafany@gmail.com",
+                  "0893256",
+                  "Tiko"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153611,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user registration should be  successful",
+            "match": {
+              "location": "stepdefinition.UserRegistrationSteps.user_registration_should_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User Registration",
+    "description": "",
+    "id": "user-registration",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Registration.feature",
+    "tags": []
+  }
+]
